@@ -21,7 +21,7 @@ def DisplayOptions(lista):
     print(("1 - {}\n2 - {}\n3 - {} ".format(*lista)).strip())
     user_choice = input("Select option above or press enter to exit:")
     return user_choice
-    
+
 options = ["load data", "export data", "analyze & predict"]
 choice = "x"
 
